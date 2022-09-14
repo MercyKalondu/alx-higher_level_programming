@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Define a class aquare."""
+"""Define a class Square"""
 
 
 class Square:
@@ -36,3 +36,15 @@ class Square:
             raise ValueError("size must be >= 0")
         else:
             self.__size = value
+
+    def my_print(self):
+        """ Method that prints a # square according
+        to the size value
+        """
+        if not self.__size:
+            print()
+        else:
+            for i in range(self.__size):
+                for j in range(self.__size):
+                    print("#", end='')
+                print()
