@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Define a class Square"""
+"""Define a class Square."""
 
 class Square:
-    """Represents a Square"""
+    """Represents a Square."""
 
 
     def __str__(self):
