@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-cointains class MyInt
+Contains the class MyInt
 """
 
 class MyInt(int):
-    """ Class that inherits from class int"""
+    """Class that inherits from class int"""
 
     def __eq__(self, other):
-        """ Method that returns != check """
+        """Method that returns != check"""
         return int.__ne__(self, other)
 
     def __ne__(self, other):
-        """ Method that returns == check """
+        """Method that returns == check"""
         return int.__eq__(self, other)
