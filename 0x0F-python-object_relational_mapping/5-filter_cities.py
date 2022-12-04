@@ -3,6 +3,7 @@
 """
 List all cities of a state
 """
+
 import sys
 import MySQLdb
 
